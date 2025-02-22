@@ -7,11 +7,7 @@ services:
 
   rails:
     <<: *base
-<<<<<<< HEAD
     container_name: woot_rails
-=======
-    container_name: chatwoot_rails
->>>>>>> afb35f2fe896b397d18277657a16b9e7de36af2f
     ports:
       - '127.0.0.1:3001:3000'
     environment:
@@ -31,11 +27,7 @@ services:
 
   sidekiq:
     <<: *base
-<<<<<<< HEAD
     container_name: woot_sidekiq
-=======
-    container_name: chatwoot_sidekiq
->>>>>>> afb35f2fe896b397d18277657a16b9e7de36af2f
     environment:
       - NODE_ENV=production
       - RAILS_ENV=production
