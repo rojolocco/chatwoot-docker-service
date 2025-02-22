@@ -9,7 +9,7 @@ services:
     <<: *base
     container_name: woot_rails
     ports:
-      - '127.0.0.1:3001:3000'
+      - '3001:3000'
     environment:
       - NODE_ENV=production
       - RAILS_ENV=production
