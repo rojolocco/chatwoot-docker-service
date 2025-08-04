@@ -1,6 +1,6 @@
 services:
   base: &base
-    image: chatwoot/chatwoot:latest
+    image: chatwoot/chatwoot:4.4.0
     env_file: .env
     volumes:
       - /data/storage:/app/storage
