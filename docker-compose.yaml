@@ -22,7 +22,7 @@ services:
       resources:
         limits:
           cpus: '0.5'
-          memory: 256M
+          memory: 512M
   sidekiq:
     <<: *base
     container_name: woot_sidekiq
@@ -38,7 +38,7 @@ services:
       resources:
         limits:
           cpus: '0.5'
-          memory: 256M
+          memory: 512M
 
 networks:
   internal_network:
